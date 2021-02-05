@@ -1,15 +1,4 @@
 Prism.languages.cfscript = Prism.languages.extend('clike', {
-	'keyword': [
-		{
-			pattern: /\b(break|catch|component|continue|default|do|else|for|function|if|in|include|package|private|property|public|remote|required|rethrow|return|switch|throw|try|var|while|xml)\b(?!\s*\=)/
-		}
-	],
-	'type': [
-		{
-			pattern: /\b(any|array|binary|boolean|date|guid|numeric|query|string|struct|uuid|void|xml)\b/,
-			alias: 'builtin'
-		}
-	],
 	'comment': [
 		{
 			pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
@@ -33,12 +22,23 @@ Prism.languages.cfscript = Prism.languages.extend('clike', {
 		pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\])*\1/,
 		greedy: true
 	},
+	'keyword': [
+		{
+			pattern: /\b(break|catch|component|continue|default|do|else|for|function|if|in|include|package|private|property|public|remote|required|rethrow|return|switch|throw|try|var|while|xml)\b(?!\s*\=)/
+		}
+	],
 	'operator': [
 		{
 			pattern: /\+\+|--|&&|\|\||=>|[!=]==|<=?|>=?|[-+*/%&|^!=<>]=?|\?(\.|:)?|[?:]/
 		},
 		{
 			pattern: /\b(and|contains|eq|equal|eqv|gt|gte|imp|is|lt|lte|mod|not|or|xor)\b/
+		}
+	],
+	'type': [
+		{
+			pattern: /\b(any|array|binary|boolean|date|guid|numeric|query|string|struct|uuid|void|xml)\b/,
+			alias: 'builtin'
 		}
 	]
 });
