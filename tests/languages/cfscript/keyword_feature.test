@@ -1,0 +1,63 @@
+break
+catch
+component
+continue
+default
+do
+else
+finally
+for
+function
+if
+in
+include
+package
+private
+property
+public
+remote
+required
+rethrow
+return
+switch
+throw
+try
+var
+while
+xml
+
+----------------------------------------------------
+
+[
+	["keyword", "break"],
+	["keyword", "catch"],
+	["keyword", "component"],
+	["keyword", "continue"],
+	["keyword", "default"],
+	["keyword", "do"],
+	["keyword", "else"],
+	["keyword", "finally"],
+	["keyword", "for"],
+	["keyword", "function"],
+	["keyword", "if"],
+	["keyword", "in"],
+	["keyword", "include"],
+	["keyword", "package"],
+	["keyword", "private"],
+	["keyword", "property"],
+	["keyword", "public"],
+	["keyword", "remote"],
+	["keyword", "required"],
+	["keyword", "rethrow"],
+	["keyword", "return"],
+	["keyword", "switch"],
+	["keyword", "throw"],
+	["keyword", "try"],
+	["keyword", "var"],
+	["keyword", "while"],
+	["keyword", "xml"]
+]
+
+----------------------------------------------------
+
+Checks for all keywords.
