@@ -17,11 +17,6 @@ Prism.languages.cfscript = Prism.languages.extend('clike', {
 			greedy: true
 		}
 	],
-	// the coffeescript approach to strings, which can be multiline, also appeared to work here
-	'string': {
-		pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\])*\1/,
-		greedy: true
-	},
 	'keyword': [
 		{
 			pattern: /\b(break|catch|component|continue|default|do|else|finally|for|function|if|in|include|package|private|property|public|remote|required|rethrow|return|switch|throw|try|var|while|xml)\b(?!\s*\=)/
