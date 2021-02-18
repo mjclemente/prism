@@ -1,3 +1,4 @@
+abstract
 break
 catch
 component
@@ -5,6 +6,8 @@ continue
 default
 do
 else
+extends
+final
 finally
 for
 function
@@ -19,6 +22,7 @@ remote
 required
 rethrow
 return
+static
 switch
 throw
 try
@@ -29,6 +33,7 @@ xml
 ----------------------------------------------------
 
 [
+	["keyword", "abstract"],
 	["keyword", "break"],
 	["keyword", "catch"],
 	["keyword", "component"],
@@ -36,6 +41,8 @@ xml
 	["keyword", "default"],
 	["keyword", "do"],
 	["keyword", "else"],
+	["keyword", "extends"],
+	["keyword", "final"],
 	["keyword", "finally"],
 	["keyword", "for"],
 	["keyword", "function"],
@@ -50,6 +57,7 @@ xml
 	["keyword", "required"],
 	["keyword", "rethrow"],
 	["keyword", "return"],
+	["keyword", "static"],
 	["keyword", "switch"],
 	["keyword", "throw"],
 	["keyword", "try"],
