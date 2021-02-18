@@ -19,7 +19,7 @@ Prism.languages.cfscript = Prism.languages.extend('clike', {
 	],
 	'keyword': [
 		{
-			pattern: /\b(break|catch|component|continue|default|do|else|finally|for|function|if|in|include|package|private|property|public|remote|required|rethrow|return|switch|throw|try|var|while|xml)\b(?!\s*\=)/
+			pattern: /\b(abstract|break|catch|component|continue|default|do|else|extends|final|finally|for|function|if|in|include|package|private|property|public|remote|required|rethrow|return|static|switch|throw|try|var|while|xml)\b(?!\s*\=)/
 		}
 	],
 	'operator': [
