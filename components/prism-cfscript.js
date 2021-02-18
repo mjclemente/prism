@@ -24,7 +24,7 @@ Prism.languages.cfscript = Prism.languages.extend('clike', {
 	],
 	'operator': [
 		{
-			pattern: /\+\+|--|&&|\|\||=>|[!=]==|<=?|>=?|[-+*/%&|^!=<>]=?|\?(\.|:)?|[?:]/
+			pattern: /\+\+|--|&&|\|\||::|=>|[!=]==|<=?|>=?|[-+*/%&|^!=<>]=?|\?(\.|:)?|[?:]/
 		},
 		{
 			pattern: /\b(and|contains|eq|equal|eqv|gt|gte|imp|is|lt|lte|mod|not|or|xor)\b/
